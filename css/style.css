@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* COMUNI */
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -11,23 +12,43 @@ body {
 ul{
     list-style: none;
 }
-/* button{
+button{
     all: unset;
     padding: 10px 17px;
-} */
+} 
+
+.contenitore{
+    margin: 0 auto;
+    width: 1082px;
+}
+/* /COMUNI */
+/* TESTO */
+    h1{
+        font-size: 68px;
+    }
+
+
+/* /TESTO */
 
 .debug header {
     background-color: #b4d0e7;
-    height: 820px;
     border: 1px black solid;
 }
-.debug nav{
-    background-color: white;
-    height: 80px;
+.debug .titolo{
+    background-color: red;
+    height: 710px;
 }
 
 /* HEADER */
 
+
+    /* NAV */
+    nav{
+        background-color: white;
+        position: fixed;
+        right: 0;
+        left: 0;
+    }
     nav div{
         display: flex;
         justify-content: space-between;
@@ -37,11 +58,21 @@ ul{
     }
 
     nav ul li{
-        margin: 30px 40px;
+        margin: 30px 20px;
     }
 
     /* nav ul li button{
 
     } */
+    /* NAV */
+    .titolo{
+        padding-top: 180px;
+    }
+
+    .titolo div.contenitore{
+        display: flex;
+    }
+
+    
 
 /* /HEADER */
