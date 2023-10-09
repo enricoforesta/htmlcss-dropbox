@@ -9,70 +9,111 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-ul{
+ul {
     list-style: none;
 }
-button{
-    all: unset;
-    padding: 10px 17px;
-} 
 
-.contenitore{
+button {
+    all: unset;
+    background-color: #0061ff;
+    color: white;
+    text-align: center;
+}
+
+/* CONTENITORE DI DEFAULT PER CENTRARE IL CONTENUTO */
+.contenitore {
     margin: 0 auto;
     width: 1082px;
 }
-/* /COMUNI */
-/* TESTO */
-    h1{
-        font-size: 68px;
-    }
 
+img {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+/* /COMUNI */
+
+/* TESTO */
+h1 {
+    font-size: 68px;
+}
+
+.titolo span {
+    font-size: 17px;
+}
 
 /* /TESTO */
 
-.debug header {
-    background-color: #b4d0e7;
-    border: 1px black solid;
-}
-.debug .titolo{
-    background-color: red;
-    height: 710px;
-}
+
 
 /* HEADER */
 
+header {
+    background-color: #b4d0e7;
+    height: 820px;
+}
 
-    /* NAV */
-    nav{
-        background-color: white;
-        position: fixed;
-        right: 0;
-        left: 0;
-    }
-    nav div{
-        display: flex;
-        justify-content: space-between;
-    }
-    nav ul{
-        display: flex;
-    }
+/* NAV */
+nav {
+    background-color: white;
+    position: fixed;
+    right: 0;
+    left: 0;
+}
 
-    nav ul li{
-        margin: 30px 20px;
-    }
+nav div {
+    display: flex;
+    justify-content: space-between;
+}
 
-    /* nav ul li button{
+nav ul {
+    display: flex;
+    align-items: center;
+}
 
-    } */
-    /* NAV */
-    .titolo{
-        padding-top: 180px;
-    }
+nav ul li {
+    margin: 30px 20px;
+}
 
-    .titolo div.contenitore{
-        display: flex;
-    }
+nav ul li button {
+    padding: 10px 15px;
+}
 
-    
+/* /NAV */
+/* TITOLO */
+.titolo {
+    padding-top: 180px;
+}
+
+.titolo div.contenitore {
+    display: flex;
+    margin-top: 60px;
+}
+
+.descrizione {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.immagine {
+    width: 786px;
+    height: 470px;
+}
+
+.titolo button {
+    margin: 35px 0;
+    border: 1px black solid;
+    padding: 15px;
+}
+
+.titolo i.fa-solid.fa-arrow-down {
+    font-size: 40px;
+    margin-top: 55px;
+}
+
+/* /TITOLO */
 
 /* /HEADER */
