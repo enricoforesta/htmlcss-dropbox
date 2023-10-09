@@ -1,5 +1,47 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+/* button{
+    all: unset;
+    padding: 10px 17px;
+} */
+
+.debug header {
+    background-color: #b4d0e7;
+    height: 820px;
+    border: 1px black solid;
+}
+.debug nav{
+    background-color: white;
+    height: 80px;
+}
+
+/* HEADER */
+
+    nav div{
+        display: flex;
+        justify-content: space-between;
+    }
+    nav ul{
+        display: flex;
+    }
+
+    nav ul li{
+        margin: 30px 40px;
+    }
+
+    /* nav ul li button{
+
+    } */
+
+/* /HEADER */
