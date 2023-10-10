@@ -28,11 +28,11 @@ button {
     background-color: #0061ff;
     color: white;
     text-align: center;
+    padding: 6px 15px;
 }
 
 img {
     width: 100%;
-    height: 100%;
     display: inline-block;
 }
 
@@ -50,6 +50,9 @@ h3 {
     margin: 30px 0 20px 0;
 }
 
+p{
+    font-size: 14px;
+}
 span {
     font-size: 17px;
 }
@@ -71,15 +74,16 @@ span {
 
 header {
     background-color: #b4d0e7;
-    height: 820px;
 }
 
 /* NAV */
+
 nav {
     background-color: white;
     position: fixed;
     right: 0;
     left: 0;
+    z-index: 99;
 }
 
 nav div {
@@ -93,17 +97,29 @@ nav ul {
 }
 
 nav ul li {
-    margin: 30px 20px;
+    margin: 0px 20px;
 }
 
-nav ul li button {
-    padding: 10px 15px;
+nav ul li a{
+    text-decoration: none;
+    color: currentColor;
+    line-height: 80px;
 }
+
+nav ul li:hover{
+    border-bottom: 2px solid black;
+}
+/* nav ul li img:hover, 
+nav ul li button:hover{
+    border-bottom: none;
+} */
 
 /* /NAV */
 /* TITOLO */
 .titolo {
-    padding-top: 180px;
+    padding-top: 80px;
+    position: relative; 
+    bottom: -80px; 
 }
 
 .titolo div.contenitore {
@@ -112,7 +128,7 @@ nav ul li button {
 }
 
 .descrizione-titolo {
-    width: 40%;
+    width: 30%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -120,13 +136,11 @@ nav ul li button {
 
 .immagine {
     width: 786px;
-    height: 470px;
 }
 
 .titolo button {
     margin: 35px 0;
     border: 1px black solid;
-    padding: 15px;
 }
 
 .titolo i.fa-solid.fa-arrow-down {
@@ -186,7 +200,6 @@ main input[type="checkbox"] {
 }
 
 .box-centrale button {
-    padding: 13px 34px;
     margin: 25px 0 37px 0;
 }
 
