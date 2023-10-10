@@ -106,6 +106,10 @@ nav ul li:hover {
     border-bottom: 2px solid black;
 }
 
+nav ul li button{
+    height: 35px;
+    width: 70px;
+}
 /* nav ul li img:hover, 
 nav ul li button:hover{
     border-bottom: none;
@@ -139,6 +143,8 @@ nav ul li button:hover{
 .titolo button {
     margin: 35px 0;
     border: 1px black solid;
+    width: 200px;
+    height: 40px;
 }
 
 .titolo i.fa-solid.fa-arrow-down {
@@ -199,9 +205,6 @@ main input[type="checkbox"] {
     padding-bottom: 30px;
 }
 
-.box-centrale span i{
-    position: relative;
-}
 
 .box-centrale button {
     margin: 25px 0 37px 0;
@@ -212,11 +215,22 @@ main input[type="checkbox"] {
     color: blue;
 }
 
+.flex-span{
+    display: flex;
+    align-items: baseline;
+}
+
+.flex-span span{
+    padding-left: 8px;
+}
 /* /PARTE CENTRALE */
 
 /* PARTE INFERIORE */
 .box-inferiore ul li {
     padding: 10px 0;
+}
+.box-inferiore li i{
+    color: blue;
 }
 
 /* /PARTE INFERIORE */
@@ -232,6 +246,9 @@ main input[type="checkbox"] {
     right: 30px;
     top: 30px;
     padding: 10px 40px;
+}
+.speciale .box-inferiore{
+    padding: 30px 400px 0px 0px;
 }
 /* /ULTIMO BOX */
 
