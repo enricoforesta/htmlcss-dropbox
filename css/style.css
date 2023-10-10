@@ -47,7 +47,7 @@ h2 {
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 29px;
 }
 
 h4 {
@@ -60,7 +60,7 @@ p {
 }
 
 span {
-    font-size: 17px;
+    font-size: 14px;
 }
 
 /* /TESTO */
@@ -137,7 +137,7 @@ nav ul li button:hover{
 }
 
 .immagine {
-    width: 786px;
+    width: 70%;
 }
 
 .titolo button {
@@ -162,6 +162,9 @@ main {
 
 main input[type="checkbox"] {
     margin: 70px 0 50px 0
+}
+main a{
+    color: blue;
 }
 
 /* PREZZI */
@@ -211,9 +214,6 @@ main input[type="checkbox"] {
     width: 240px;
     height: 40px;
 }
-.box-centrale a{
-    color: blue;
-}
 
 .flex-span{
     display: flex;
@@ -252,6 +252,55 @@ main input[type="checkbox"] {
 }
 /* /ULTIMO BOX */
 
+/* SECONDA SEZIONE */
+.partner{
+    display: flex;
+    margin: 150px 0;
+}
 
+.partner .descrizione-titolo{
+    padding: 40px;
+}
+
+.partner .descrizione-titolo h4{
+    font-size: 21px;
+}
+.partner .descrizione-titolo p{
+    line-height: 21px;
+}
+.partner .descrizione-titolo button{
+    all: unset;
+    padding: 10px 30px;
+    border: 1px solid black;
+    margin-top:30px ;
+}
+
+/* /SECONDA SEZIONE */
+
+/* TERZA SEZIONE */
+.business {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+.business .box{
+    width: calc((100% / 3) - 50px);
+    display: flex;
+    flex-direction: column;
+}
+.business p{
+    font-size: 17px;
+    margin-top: 40px;
+}
+
+.scopri{
+    width: 60%;
+    margin: 215px 0;
+}
+.scopri h2{
+    margin-bottom: 80px;
+}
+/* /TERZA SEZIONE */
 
 /* /MAIN */
