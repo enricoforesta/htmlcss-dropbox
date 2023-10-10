@@ -157,7 +157,7 @@ nav ul li button:hover{
 
 /* MAIN */
 main {
-    margin: 160px 80px 160px 105px;
+    margin: 160px 0;
 }
 
 main input[type="checkbox"] {
@@ -302,5 +302,29 @@ main a{
     margin-bottom: 80px;
 }
 /* /TERZA SEZIONE */
+
+/* QUARTA SEZIONE */
+    .debug .sponsor-box{
+        background-color: blue;
+    }
+
+    .sponsor{
+        display: flex;
+        justify-content: space-between;
+    }
+    .box-ss{
+        width: calc(100% / 3);
+        display: flex;
+    }
+    .sponsor-box{
+        width: 100%;
+        text-align: center;
+    }
+
+    .sponsor-box img{
+        margin: 50% 0;
+    }
+
+/* QUARTA SEZIONE */
 
 /* /MAIN */
