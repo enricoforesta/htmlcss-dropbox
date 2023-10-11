@@ -53,7 +53,8 @@ h4 {
     font-size: 18px;
     margin: 20px 0;
 }
-hr{
+
+hr {
     opacity: 0.3;
     margin-top: 20px;
     width: 50px;
@@ -387,37 +388,43 @@ main a {
 /* /BOX SPONSOR */
 
 /* BOX CENTRALE */
-.cx{
+.cx {
     background-color: #f5f5f5;
     padding: 50px;
     overflow: auto;
 }
 
-.cx p{
+.cx p {
     font-size: 16px;
     padding: 50px 0;
 }
 
-.cx span{
+.cx span {
     margin: 60px 0;
 }
-.cx img{
+
+.cx img {
     width: 50%;
 }
+
 /* /BOX CENTRALE */
-.prova-ora{
+
+/* SEZIONE BUSINESS */
+.prova-ora {
     background-color: #b4d0e7;
     padding: 150px 0;
 }
-.prova-ora .contenitore{
+
+.prova-ora .contenitore {
     display: flex;
 }
 
-.prova-ora .titolo-prova{
-    margin-right:200px;
+.prova-ora .titolo-prova {
+    margin-right: 200px;
     color: #61082b;
 }
-.prova-ora .contenitore button{
+
+.prova-ora .contenitore button {
     all: unset;
     width: 300px;
     height: 45px;
@@ -425,8 +432,28 @@ main a {
     text-align: center;
 }
 
+/* /SEZIONE BUSINESS */
+
+/* SEZIONE DOMANDE */
+.debug .domande {
+    background-color: yellow;
+    padding: 150px 0;
+}
+
+.domande h2{
+    margin-bottom: 70px;
+}
+.domande .contenitore .frequenti h4{
+    margin: 40px 0;
+}
+
+.domande hr{
+    opacity: 1;
+    width: 100%;
+}
+
+/* /SEZIONE DOMANDE */
+
 /* /QUARTA SEZIONE */
 
 /* /MAIN */
-
-
