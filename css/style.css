@@ -28,7 +28,6 @@ button {
     background-color: #0061ff;
     color: white;
     text-align: center;
-    /* padding: 6px 15px; */
     display: inline-block;
 }
 
@@ -406,8 +405,28 @@ main a {
     width: 50%;
 }
 /* /BOX CENTRALE */
+.prova-ora{
+    background-color: #b4d0e7;
+    padding: 150px 0;
+}
+.prova-ora .contenitore{
+    display: flex;
+}
+
+.prova-ora .titolo-prova{
+    margin-right:200px;
+    color: #61082b;
+}
+.prova-ora .contenitore button{
+    all: unset;
+    width: 300px;
+    height: 45px;
+    background-color: #ffffff;
+    text-align: center;
+}
 
 /* /QUARTA SEZIONE */
 
 /* /MAIN */
+
 
