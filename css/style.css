@@ -54,13 +54,18 @@ h4 {
     font-size: 18px;
     margin: 20px 0;
 }
+hr{
+    opacity: 0.3;
+    margin-top: 20px;
+    width: 50px;
+}
 
 p {
     font-size: 14px;
 }
 
 span {
-    font-size: 14px;
+    font-size: 15px;
 }
 
 /* /TESTO */
@@ -106,10 +111,11 @@ nav ul li:hover {
     border-bottom: 2px solid black;
 }
 
-nav ul li button{
+nav ul li button {
     height: 35px;
     width: 70px;
 }
+
 /* nav ul li img:hover, 
 nav ul li button:hover{
     border-bottom: none;
@@ -163,7 +169,8 @@ main {
 main input[type="checkbox"] {
     margin: 70px 0 50px 0
 }
-main a{
+
+main a {
     color: blue;
 }
 
@@ -175,7 +182,7 @@ main a{
 }
 
 .prezzi .box {
-    width: calc((100% / 3) - 50px);
+    width: calc((100% - 100px) / 3);
     border: 1px solid;
     border-color: rgba(0, 0, 0, 0.3);
 }
@@ -215,21 +222,23 @@ main a{
     height: 40px;
 }
 
-.flex-span{
+.flex-span {
     display: flex;
     align-items: baseline;
 }
 
-.flex-span span{
+.flex-span span {
     padding-left: 8px;
 }
+
 /* /PARTE CENTRALE */
 
 /* PARTE INFERIORE */
 .box-inferiore ul li {
     padding: 10px 0;
 }
-.box-inferiore li i{
+
+.box-inferiore li i {
     color: blue;
 }
 
@@ -247,32 +256,36 @@ main a{
     top: 30px;
     padding: 10px 40px;
 }
-.speciale .box-inferiore{
+
+.speciale .box-inferiore {
     padding: 30px 400px 0px 0px;
 }
+
 /* /ULTIMO BOX */
 
 /* SECONDA SEZIONE */
-.partner{
+.partner {
     display: flex;
     margin: 150px 0;
 }
 
-.partner .descrizione-titolo{
+.partner .descrizione-titolo {
     padding: 40px;
 }
 
-.partner .descrizione-titolo h4{
+.partner .descrizione-titolo h4 {
     font-size: 21px;
 }
-.partner .descrizione-titolo p{
+
+.partner .descrizione-titolo p {
     line-height: 21px;
 }
-.partner .descrizione-titolo button{
+
+.partner .descrizione-titolo button {
     all: unset;
     padding: 10px 30px;
     border: 1px solid black;
-    margin-top:30px ;
+    margin-top: 30px;
 }
 
 /* /SECONDA SEZIONE */
@@ -284,47 +297,117 @@ main a{
     flex-wrap: wrap;
     margin-top: 60px;
 }
-.business .box{
-    width: calc((100% / 3) - 50px);
+
+.business .box {
+    width: calc((100% - 100px) / 3);
     display: flex;
     flex-direction: column;
 }
-.business p{
+
+.business p {
     font-size: 17px;
     margin-top: 40px;
 }
 
-.scopri{
+.scopri {
     width: 60%;
     margin: 215px 0;
 }
-.scopri h2{
+
+.scopri h2 {
     margin-bottom: 80px;
 }
+
 /* /TERZA SEZIONE */
 
 /* QUARTA SEZIONE */
-    .debug .sponsor-box{
-        background-color: blue;
-    }
 
-    .sponsor{
-        display: flex;
-        justify-content: space-between;
-    }
-    .box-ss{
-        width: calc(100% / 3);
-        display: flex;
-    }
-    .sponsor-box{
-        width: 100%;
-        text-align: center;
-    }
+/* BOX SPONSOR */
+.sponsor {
+    display: flex;
+}
 
-    .sponsor-box img{
-        margin: 50% 0;
-    }
+.box-sp {
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+    display: flex;
+    flex-wrap: wrap;
+}
 
-/* QUARTA SEZIONE */
+.sponsor-box {
+    width: 50%;
+    height: 50%;
+    position: relative;
+}
+
+.sponsor-box img {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(1);
+}
+
+
+/* COLORI BOX */
+
+.sx .primo {
+    background-color: #a2d39b;
+    border: 15px solid #d1e9cd;
+}
+
+.sx .secondo {
+    background-color: #61082b;
+}
+
+.sx .terzo {
+    background-color: #0093ce;
+}
+
+.sx .quarto {
+    background-color: #ff1c1c;
+}
+
+.dx .primo {
+    background-color: #ff1c1c;
+}
+
+.dx .secondo {
+    background-color: #b4d0e7;
+}
+
+.dx .terzo {
+    background-color: #0d2481;
+}
+
+.dx .quarto {
+    background-color: #ffd830;
+}
+
+/* /BOX SPONSOR */
+
+/* BOX CENTRALE */
+.cx{
+    background-color: #f5f5f5;
+    padding: 50px;
+    overflow: auto;
+}
+
+.cx p{
+    font-size: 16px;
+    padding: 50px 0;
+}
+
+.cx span{
+    margin: 60px 0;
+}
+.cx img{
+    width: 50%;
+}
+/* /BOX CENTRALE */
+
+/* /QUARTA SEZIONE */
 
 /* /MAIN */
+
