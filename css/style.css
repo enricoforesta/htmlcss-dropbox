@@ -12,6 +12,10 @@
     margin: 0 auto;
     width: 1082px;
 }
+.contenitore-big{
+    margin: 0 auto;
+    width: 1200px;
+}
 
 /* /CONTENITORE DI DEFAULT PER CENTRARE IL CONTENUTO */
 
@@ -38,7 +42,7 @@ img {
 
 /* TESTO */
 h1 {
-    font-size: 68px;
+    font-size: 80px;
 }
 
 h2 {
@@ -61,7 +65,7 @@ hr {
 }
 
 p {
-    font-size: 14px;
+    font-size: 15px;
 }
 
 span {
@@ -116,11 +120,6 @@ nav ul li button {
     width: 70px;
 }
 
-/* nav ul li img:hover, 
-nav ul li button:hover{
-    border-bottom: none;
-} */
-
 /* /NAV */
 
 /* TITOLO */
@@ -130,7 +129,7 @@ nav ul li button:hover{
     bottom: -80px;
 }
 
-.titolo div.contenitore {
+.titolo div.contenitore-big {
     display: flex;
     margin-top: 60px;
 }
@@ -154,8 +153,8 @@ nav ul li button:hover{
 }
 
 .titolo i.fa-solid.fa-arrow-down {
-    font-size: 40px;
-    margin-top: 55px;
+    font-size: 50px;
+    margin-top: 85px;
 }
 
 /* /TITOLO */
@@ -163,7 +162,7 @@ nav ul li button:hover{
 
 /* MAIN */
 main {
-    margin: 160px 0;
+    margin-top: 160px;
 }
 
 main input[type="checkbox"] {
@@ -408,6 +407,7 @@ main a {
 }
 
 /* /BOX CENTRALE */
+/* /QUARTA SEZIONE */
 
 /* SEZIONE BUSINESS */
 .prova-ora {
@@ -435,9 +435,12 @@ main a {
 /* /SEZIONE BUSINESS */
 
 /* SEZIONE DOMANDE */
-.debug .domande {
-    background-color: yellow;
+.domande {
     padding: 150px 0;
+}
+
+.frequenti{
+    position: relative;
 }
 
 .domande h2{
@@ -447,13 +450,57 @@ main a {
     margin: 40px 0;
 }
 
-.domande hr{
+.domande  hr{
     opacity: 1;
     width: 100%;
 }
+.domande .contenitore .frequenti i{
+    font-size: 10px;
+    position: absolute;
+    top: 0;
+    right: 50px;
+}
 
 /* /SEZIONE DOMANDE */
-
-/* /QUARTA SEZIONE */
-
 /* /MAIN */
+
+/* FOOTER */
+footer{
+    background-color: black;
+    color: white;
+    margin: 0 auto;
+    border-bottom: 1px solid white;
+}
+/* LISTA */
+footer .lista{
+    display: flex;
+    gap: 100px;
+}
+
+.lista-footer{
+    flex-grow: 1;
+    padding: 110px 0;
+}
+
+footer a{
+    text-decoration: none;
+    color: currentColor;
+    line-height: 42px;
+}
+
+footer .lista-footer h3{
+    margin-bottom: 40px;
+}
+footer hr{
+    width: 130px;
+}
+/* /LISTA */
+/* LINGUA */
+footer .lingua{
+    display: flex;
+    align-items: baseline;
+    gap: 5px;
+    padding: 50px 0;
+    opacity: 0.3;
+}
+/* /FOOTER */
