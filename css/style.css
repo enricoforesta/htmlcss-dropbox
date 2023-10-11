@@ -34,6 +34,10 @@ button {
     text-align: center;
     display: inline-block;
 }
+button:hover{
+    cursor: pointer;
+    filter: brightness(1.5);
+}
 
 img {
     width: 100%;
@@ -109,9 +113,10 @@ nav ul li a {
     text-decoration: none;
     color: currentColor;
     line-height: 80px;
+    display: block;
 }
 
-nav ul li:hover {
+nav ul li:hover a{
     border-bottom: 2px solid black;
 }
 
@@ -167,6 +172,11 @@ main {
 
 main input[type="checkbox"] {
     margin: 70px 0 50px 0
+}
+
+
+main .checkbox span{
+    margin-right: 65px;
 }
 
 main a {
@@ -281,10 +291,11 @@ main a {
 }
 
 .partner .descrizione-titolo button {
-    all: unset;
     padding: 10px 30px;
     border: 1px solid black;
     margin-top: 30px;
+    background-color: white;
+    color: black;
 }
 
 /* /SECONDA SEZIONE */
@@ -425,11 +436,11 @@ main a {
 }
 
 .prova-ora .contenitore button {
-    all: unset;
     width: 300px;
     height: 45px;
     background-color: #ffffff;
     text-align: center;
+    color: black;
 }
 
 /* /SEZIONE BUSINESS */
@@ -459,6 +470,25 @@ main a {
     position: absolute;
     top: 0;
     right: 50px;
+}
+
+/* HOVER SOTTOTITOLO */
+.icona-domande .fa-solid.fa-chevron-up{
+    display: none;
+}
+
+.sottotitolo-domande{
+    display: none;
+}
+
+
+.frequenti:hover .sottotitolo-domande,
+.frequenti:hover .icona-domande .fa-solid.fa-chevron-up{
+    display: block;
+}
+
+.frequenti:hover .icona-domande .fa-solid.fa-chevron-down{
+    display: none;
 }
 
 /* /SEZIONE DOMANDE */
